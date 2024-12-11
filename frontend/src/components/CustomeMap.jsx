@@ -213,6 +213,7 @@ const CustomMap = () => {
                 // attribution="&amp;copy <a href='http://osm.org/copyright'>OpenStreetMap 123</a> contributors"
                 url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
             />
+            
             {/* <DynamicMapCenter center={location} /> */}
             {/* <Polyline positions={routeCoordinates} color="blue" weight={4} opacity={0.7} /> */}
             <MyMarkersList markers={markers} />
